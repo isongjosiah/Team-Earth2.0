@@ -1,0 +1,62 @@
+/*logo*/
+.img-fluid{
+    margin: 100px 0 70px 0;
+    min-height: 150px;
+    min-width: 150px;
+    
+}
+
+/*form and icon handling*/
+.input-icons i { 
+            position: absolute;
+ 	margin-left:2px;
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom:0; 
+            
+        } 
+          
+        .icon { 
+            padding: 8px; 
+            min-width: 40px; 
+            border-right: 2px solid red;
+            
+        } 
+          
+        .input-field { 
+            min-width: 400px; 
+            padding: 10px; 
+            text-align: center; 
+            margin-bottom: 30px;
+            border: 2px solid red;
+            border-radius: 20px;
+            transition: all 4s ease-in-out;
+            
+        } 
+
+/*buttons*/
+#button{
+    min-width: 200px;
+    margin-left:100px;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+#button:hover{
+    background: #cccccc;
+}
+
+#butin{
+    min-width: 300px;
+    margin-left:50px;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+#butin:hover{
+    background: #0080d0;
+}
+.submit {
+    text-decoration-color: black;
+    margin-left: 20px;
+}

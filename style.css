@@ -1,0 +1,74 @@
+/*logo*/
+.img-fluid{
+    margin: 60px 0 70px 0;
+    min-height: 150px;
+    min-width: 150px;
+    
+}
+
+/*form and icon handling*/
+.input-icons i { 
+            position: absolute;
+ 	margin-left:2px;
+        } 
+          
+        .input-icons { 
+            width: 100%; 
+            margin-bottom:0; 
+            
+        } 
+          
+        .icon { 
+            padding: 8px; 
+            min-width: 40px; 
+            border-right: 2px solid red;
+            
+        } 
+          
+        .input-field { 
+            min-width: 400px; 
+            padding: 10px; 
+            text-align: center; 
+            margin-bottom: 30px;
+            border: 2px solid red;
+            border-radius: 20px;
+            transition: all 1000ms ease-in-out;
+            
+        } 
+
+/*buttons*/
+#button{
+    min-width: 200px;
+    margin-left:100px;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+#button:hover{
+    background: #cccccc;
+}
+
+#butin{
+    min-width: 300px;
+    margin-left:50px;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+#butin:hover{
+    background: #0080d0;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
